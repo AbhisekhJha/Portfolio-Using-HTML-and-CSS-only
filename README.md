@@ -2,7 +2,7 @@
 
 A clean, modern, and fully responsive personal portfolio website built with HTML and CSS. Features a beautiful winter night theme with smooth animations and a mobile-first design approach.
 
-## 🌟 Features
+##  Features
 
 - **Responsive Design**: Mobile-first approach that works seamlessly on all devices
 - **Semantic HTML5**: Uses proper semantic elements (header, nav, section, article, footer)
@@ -17,7 +17,7 @@ A clean, modern, and fully responsive personal portfolio website built with HTML
 - **Modern UI**: Glassmorphism effects with semi-transparent sections
 - **Winter Night Theme**: Beautiful dark gradient background
 
-## 📋 Sections
+##  Sections
 
 1. **About Me**: Personal introduction with profile image and CV download button
 2. **Skills**: Technology icons (HTML, CSS, JavaScript, React, Node.js, PostgreSQL, Java)
@@ -25,14 +25,14 @@ A clean, modern, and fully responsive personal portfolio website built with HTML
 4. **Contact**: Contact form for reaching out
 5. **Connect With Me**: Social media links (Email, GitHub, LinkedIn)
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5**: Semantic markup
 - **CSS3**: Modern styling with animations and responsive design
 - **Font Awesome**: Icons for social media and UI elements
 - **DevIcons**: Technology skill icons
 
-## 📁 File Structure
+##  File Structure
 
 ```
 Personal_portfolio/
@@ -49,7 +49,7 @@ Personal_portfolio/
 ```
 
 
-## 👤 Author
+##  Author
 
 **Abhisekh Kumar Jha**
 
