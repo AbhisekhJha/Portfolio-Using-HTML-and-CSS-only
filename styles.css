@@ -102,7 +102,7 @@ header {
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    position: relative;
+    width: 100%;
 }
 
 
@@ -481,6 +481,8 @@ footer {
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
+        position: relative;
+        z-index: 1001;
     }
 
     .menu-toggle:checked + .hamburger .hamburger-line:nth-child(1) {
@@ -521,10 +523,19 @@ footer {
         padding: 0;
     }
 
+    .nav-menu label {
+        display: block;
+        width: 100%;
+        cursor: pointer;
+    }
+
     .nav-menu a {
         display: block;
         padding: 1.5rem 2rem;
         font-size: 1.2rem;
+        color: #FFFFFF;
+        text-decoration: none;
+        pointer-events: auto;
     }
 
     .nav-menu a:active {
