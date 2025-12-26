@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Portfolio</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#social">Social</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="hero-section">
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="assets/profile_pic.jpg" alt="Profile Picture">
+                </div>
+                <article>
+                    <h1>About Me</h1>
+                    <p>Hello! I'm a passionate developer who loves creating beautiful and functional web experiences. I enjoy turning complex problems into simple, elegant solutions.</p>
+                    <p>With a focus on clean code and user-centered design, I bring ideas to life through thoughtful development and attention to detail.</p>
+                    <a href="https://drive.google.com/file/d/1brXj3vcFXWGCDNxnQWNnApe1f_ADuJHF/view?usp=sharing" class="cv-download-btn" download>
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <article>
+                <div class="skill-item" title="HTML">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                </div>
+                <div class="skill-item" title="CSS">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                </div>
+                <div class="skill-item" title="JavaScript">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                </div>
+                <div class="skill-item" title="React">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                </div>
+                <div class="skill-item" title="Node.js">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                </div>
+                <div class="skill-item" title="PostgreSQL">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                </div>
+                <div class="skill-item" title="Java">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                </div>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <div class="project-card">
+                    <img src="assets/work-1.jpg" alt="Flappy Bird">
+                    <h3>Flappy Bird Game Clone</h3>
+                    <div class="project-description">
+                        <p>Flappy Bird is a popular game built with HTML, CSS, and JavaScript. Players navigate a bird through obstacles by clicking, aiming to achieve the highest score possible.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/work-2.jpg" alt="MovieHub">
+                    <h3>Movie Recommendation System</h3>
+                    <div class="project-description">
+                        <p>A movie recommendation system, developed using Python and Streamlit, suggests films based on user preferences, providing personalized movie suggestions for an enhanced viewing experience.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/work-3.jpg" alt="Spotify">
+                    <h3>Spotify Clone</h3>
+                    <div class="project-description">
+                        <p>A Spotify clone, constructed using HTML, CSS, and JavaScript, replicates the core features of the popular music streaming platform, allowing users to listen to music.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <article>
+                <form aria-label="Contact form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </article>
+        </section>
+
+        <section id="social">
+            <h2>Connect With Me</h2>
+            <article>
+                <div class="social-links">
+                    <a href="mailto:abhisekhj0@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://github.com/AbhisekhJha" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abhisekh-kumar-jha-491185212/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
